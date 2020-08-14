@@ -677,15 +677,15 @@
           <div class="col-sm-12">
             <div class="contact-mf">
               <div id="contact" class="box-shadow-full">
-                <div class="row">
-                  <!--<div class="col-md-6">
+                <div class="row"
+                  <div class="col-md-6">
                     <div class="title-box-2">
                       <h5 class="title-left">
-                        Send Message Us
+                        Send Message Me
                       </h5>
                     </div>
-                    <div>-->
-                        <!--<form action="#contact" method="post" role="form">class="php-email-form">
+                    <div>
+                        <!--<form action="#contact" method="post" role="form">class="php-email-form">-->
                           <form action="thankyou/" method="post" role="form" class="php-email-form">
                         <div class="row">
                           <div class="col-md-12 mb-3">
@@ -718,12 +718,13 @@
                             <div class="sent-message">Your message has been sent. Thank you!</div>
                           </div>
                           <div class="col-md-12 text-center">
-                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                            <button type="submit" id="submit" class="button button-a button-big button-rouded">Send Message</button>
+							<!--id="submit"add korsi-->
                           </div>
                         </div>
-                      </form>-->
-                    <!--</div>
-                  </div>-->
+                      </form>
+                    </div>
+                  </div>
                   <div class="col-md-6">
                     <div class="title-box-2 pt-4 pt-md-0">
                       <h5 class="title-left">
@@ -798,6 +799,14 @@
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
+  
+  <!--sweetalert-->
+  
+ <script>
+  $("#submit").click(function(){
+  alert("Successfully submitted");
+  }
+ </script
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
