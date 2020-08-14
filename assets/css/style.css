@@ -1403,6 +1403,7 @@ footer .credits a {
 
 .button4 {
   background-color: white; 
+  padding: 14px 32px;
   color: black; 
   border: 2px solid #008CBA;
 }
